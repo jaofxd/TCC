@@ -1,45 +1,101 @@
 /* Fundo */
 body {
-    background-color: #0f172a; /* azul escuro moderno */
-    color: #e2e8f0; /* texto claro suave */
-  }
-  
-  /* Títulos */
-  h1, h2, h3 {
-    color: #38bdf8; /* azul bonito destaque */
-  }
-  
-  /* Parágrafos */
-  p {
-    color: #cbd5f5;
-  }
-  
-  /* Botões */
-  button {
-    background-color: #38bdf8;
-    color: #0f172a;
-    border: none;
-  }
-  
-  button:hover {
-    background-color: #0ea5e9;
-  }
-  
-  /* Inputs */
-  input {
-    background-color: #1e293b;
-    color: #e2e8f0;
-    border: 1px solid #334155;
-  }
-  
-  /* Links (se tiver) */
-  a {
-    color: #38bdf8;
-  }
-  
-  a:hover {
-    color: #0ea5e9;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menu */
+nav {
+  background-color: #1e293b;
+  padding: 15px;
+}
+
+nav a {
+  color: #38bdf8;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0ea5e9;
+}
+
+/* Seções */
+section {
+  padding: 25px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #38bdf8;
+}
+
+/* Parágrafos */
+p {
+  color: #cbd5f5;
+  line-height: 1.7;
+}
+
+/* Imagem + texto lado a lado */
+.conteudo-ia {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.conteudo-ia img {
+  width: 250px;
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.conteudo-ia p {
+  flex: 1;
+  text-align: justify;
+}
+
+/* Botões */
+button {
+  background-color: #38bdf8;
+  color: #0f172a;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0ea5e9;
+}
+
+/* Inputs */
+input {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  padding: 8px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e293b;
+  margin-top: 30px;
+}
+
+/* Rolagem suave */
+html {
+  scroll-behavior: smooth;
+}
